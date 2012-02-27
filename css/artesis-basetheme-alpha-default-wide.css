@@ -1,0 +1,5 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+.page {
+  background: transparent url(../img/bg/bg_body_1200.png) no-repeat center top;
+}

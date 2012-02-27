@@ -1,0 +1,43 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+
+#wrap-right {
+  background: none;
+}
+
+#wrap-left {
+  margin-left: 0;
+  padding-right: 0;
+  background: none;
+}
+
+.page {
+  background: transparent url(../img/bg/bg_body_720.png) no-repeat center top;
+}
+
+
+
+.front .panel-2col-stacked .panel-col-top {
+  display: block;
+}
+
+.panel-2col-stacked .panel-col-first {
+  width: 49%
+}
+
+.panel-2col-stacked .panel-col-last {
+  display: block;
+}
+
+
+.panel-3col .panel-col {
+    width: 50%;
+}
+
+.panel-3col .panel-col-first {
+    width: 25%;
+}
+
+.panel-3col .panel-col-last {
+    width: 25%;
+    display: block;
+}
