@@ -3,3 +3,46 @@
 .page {
   background: transparent url(../img/bg/bg_body_960.png) no-repeat center top;
 }
+
+#region-action-search,
+#region-action-user {
+    width: 470px;
+}
+
+#region-action-user {
+    margin-left: 0px;
+}
+
+#region-action-search {
+    margin-right: 0px;
+}
+
+#block-search-form, #block-user-login {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+#block-user-login .lead-text {
+  width: 70px;
+}
+
+#block-user-login .form-item {
+  width: 130px;
+}
+
+#block-user-login .form-actions {
+  width: 70px;
+}
+
+#block-search-form .form-item {
+  width: 350px;
+}
+
+#block-search-form .form-actions {
+  width: 60px;
+}
+
+#user-login-form {
+  float: right;
+}

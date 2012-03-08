@@ -14,17 +14,46 @@
   background: transparent url(../img/bg/bg_body_720.png) no-repeat center top;
 }
 
+#region-action-search, #region-action-user {
+    width: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+
+#block-user-login .lead-text {
+  width: 70px;
+}
+
+#block-user-login .form-item {
+  width: 250px;
+}
+
+#block-user-login .form-actions {
+  width: 65px;
+}
+
+#block-search-form .form-item {
+  width: 575px;
+}
+
+#block-search-form .form-actions {
+  width: 70px;
+}
+
+
+/* *** PANELS *** change to Omega panels *** */
 
 .front .panel-2col-stacked .panel-col-top {
   display: block;
 }
 
 .panel-2col-stacked .panel-col-first {
-  width: 49%
+  width: 70%
 }
 
 .panel-2col-stacked .panel-col-last {
+  width: 30%;
   display: block;
 }
 
@@ -41,3 +70,4 @@
     width: 25%;
     display: block;
 }
+

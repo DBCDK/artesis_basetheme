@@ -1,2 +1,41 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 
+#region-action-search,
+#region-action-user {
+    width: 270px;
+}
+
+#region-action-user {
+    margin-left: 0px;
+}
+
+#region-action-search {
+    margin-right: 0px;
+}
+
+#block-search-form, #block-user-login {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+#block-user-login .lead-text {
+  width: 70px;
+  display: block;
+}
+
+#block-user-login .form-item {
+  width: 140px;
+}
+
+#block-user-login .form-actions {
+  width: 70px;
+}
+
+#block-search-form .form-item {
+  width: 300px;
+}
+
+#block-search-form .form-actions {
+  width: 60px;
+}

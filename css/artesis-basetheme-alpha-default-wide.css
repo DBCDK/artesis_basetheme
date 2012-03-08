@@ -3,3 +3,29 @@
 .page {
   background: transparent url(../img/bg/bg_body_1200.png) no-repeat center top;
 }
+
+#region-action-search, #region-action-user {
+    width: 590px;
+}
+
+
+#block-user-login .lead-text {
+  width: 70px;
+}
+
+#block-user-login .form-item {
+  width: 130px;
+}
+
+#block-user-login .form-actions {
+  width: 70px;
+}
+
+#block-search-form .form-item {
+  width: 450px;
+}
+
+#block-search-form .form-actions {
+  width: 60px;
+}
+

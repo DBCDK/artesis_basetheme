@@ -1,0 +1,497 @@
+
+
+/* ***** Base color ***** */
+
+body {
+    background-color:#ffffff;
+}
+
+input[type=checkbox] {
+    background-color: #ffffff;
+}
+
+input.form-text {
+    background-color: #ffffff;
+}
+
+
+
+/* ***** Text color ***** */
+
+body, select, input, textarea, label {
+    color: #2e2e2e;
+}
+
+input[type=checkbox] {
+    color: #2e2e2e;
+}
+
+input.form-text {
+    color: #2e2e2e;
+    border-color: #2e2e2e;
+}
+
+
+
+/* ***** Link color ***** */
+
+li a, a,
+li a:visited, a:visited,
+li a:hover, a:hover,
+li a:active, a:active {
+    color: #e94927;
+}
+
+/* IE rounded corners */
+.ie-rounded-corners,
+.ie-rounded-corners .sb-inner {
+    background-color: #e94927;
+}
+
+
+
+/* ***** Button colors ***** */
+
+input {
+    background-color: #e94929;
+}
+
+/* additional links */
+.field-type-ding-entity-buttons p.ding-entity-button.rounded-corners,
+.page-user-bookmarks p.ding-entity-button.rounded-corners,
+.field-type-ting-relation       .field-items.rounded-corners,
+.field-type-ting-sfx            .field-items.rounded-corners,
+.field-type-ting-infomedia      .field-items.rounded-corners,
+.comment li.rounded-corners,
+li.comment-add.rounded-corners {
+    border-color: #ffffff;
+    background-color: #e94929;
+}
+
+/* Button text */
+input,
+.field-type-ding-entity-buttons p.ding-entity-button a,
+.field-type-ding-entity-buttons p.ding-entity-button a:visited,
+.field-type-ding-entity-buttons p.ding-entity-button a:active,
+.field-type-ding-entity-buttons p.ding-entity-button a:hover,
+.page-user-bookmarks p.ding-entity-button a,
+.page-user-bookmarks p.ding-entity-button a:visited,
+.page-user-bookmarks p.ding-entity-button a:active,
+.page-user-bookmarks p.ding-entity-button a:hover,
+.field-type-ting-infomedia .field-items a,
+.field-type-ting-infomedia .field-items a:visited,
+.field-type-ting-infomedia .field-items a:active,
+.field-type-ting-infomedia .field-items a:hover,
+.field-type-ting-sfx .field-item a,
+.field-type-ting-sfx .field-item a:visited,
+.field-type-ting-sfx .field-item a:active,
+.field-type-ting-sfx .field-item a:hover,
+.field-type-ting-relation .field-items a,
+.field-type-ting-relation .field-items a:visited,
+.field-type-ting-relation .field-items a:active,
+.field-type-ting-relation .field-items a:hover,
+.comment li.rounded-corners a,
+li.comment-add.rounded-corners a
+{
+    color: #fffff1;
+}
+
+
+
+/* *****  Header menu color ***** */
+
+.region-header,
+#header .links li a.active-trail,
+#header .links li a.active,
+#header .links li a:hover {
+    background-color: #09a9e0;
+}
+
+#header .links {
+    border-top-color: #e2e2e2;
+    background-color: #fff;
+}
+
+#header .links li {
+    color: #2e2e2e;
+}
+
+#header .links li a.active,
+#header .links li a.active-trail,
+#header .links li a:hover {
+    color: #fff;
+}
+
+
+#breadcrumb .trail a {
+  color: #383636;
+}
+
+#breadcrumb .trail a:hover {
+  color: #e94827;
+}
+
+#breadcrumb .trail .last-breadcrumb {
+  font-weight: bold;
+}
+
+
+
+
+
+/* ***** region subheader color ***** */
+/* ***** search field and user menu ***** */
+
+.region-subheader {
+    background-color: #e94928;
+}
+
+
+
+/* ***** region subheader button color ***** */
+
+/* block-user-login, block-search-form */
+
+#block-user-login input.form-submit,
+#block-search-form input.form-submit  {
+  color: #09a9e1;
+  background-color: #fff;
+}
+
+#block-system-user-menu ul li.last {
+  background-color: #fff;
+}
+
+#block-system-user-menu ul li.last a {
+  color: #09a9e1;
+}
+
+#search-controls-form label {
+  color: #2e2e2e;
+}
+
+/* #block-search-form / #block-user-login divider */
+#block-search-form .content {
+  border-color: #09a9e1;
+}
+
+
+
+/* *****  region footer ***** */
+
+#footer {
+    background: #44a5d2 url(../images/bg_footer_transparent.png) top left repeat-x;
+}
+
+#footer a,
+#footer a:visited,
+#footer a:active {
+    color: #2e2e2e;
+}
+
+#footer a:hover {
+    color: #6a6a6a;
+}
+
+#footer .block-ding-library {
+    border-color: #b5d6e8;
+}
+
+
+
+/* ***** region header menu ***** */
+
+#block-system-navigation {
+  color: #52504f;
+}
+
+/* ***** Facetbrowser ****** */
+
+.pane-search-result .panel-col-first form legend,
+.page-search-ting .panel-col-first form legend,
+.page-search-meta .pane-ding-facetbrowser legend {
+    background-color: #5ab5ed;
+    color: #ffffff;
+}
+
+.pane-search-result span#expand_more,
+.pane-search-result span#expand_less,
+.page-search-ting span#expand_more,
+.page-search-ting span#expand_less {
+    color: #e94927;
+}
+
+
+/* ***** left menu ***** */
+
+div.ding-campaign-item-plain a:visited,
+div.ding-campaign-item-plain a {
+    color: #ffffff;
+}
+
+.panel-2col .panel-col-first ul li.active,
+.panel-3col-stacked .panel-col-first ul li.active,
+.panel-3col .panel-col-first ul li.active,
+.panel-2col .panel-col-first ul li.active a,
+.panel-3col-stacked .panel-col-first ul li.active a,
+.panel-3col .panel-col-first ul li a.active,
+.panel-3col-stacked .panel-col-first ul li a.active,
+.ding-campaign-item-plain {
+    color: #ffffff;
+    background-color: #09a9e0;
+}
+
+
+/* ***** .page-user ****** */
+
+.page-user #main form table td.operations .edit-loan {
+    background-color: #E94928;
+}
+
+.page-user div.description {
+    color: #2e2e2e;
+}
+
+/* ***** Material types ***** */
+
+.pane-ting-ting-collection-types a ,
+.pane-ting-ting-object-types a {
+    color: #231f20;
+}
+
+/* ***** Availability ***** */
+
+.availability.processed ,
+.availability.available ,
+.availability.reservable ,
+.availability.reservable.available {
+  color: #2e2e2e;
+}
+
+.availability.processed.netdokument ,
+.availability.processed.netmusik-album  {
+  color: #2e2e2e;
+}
+
+
+/* ***** Primary tabs ***** */
+
+.page-search #tabs ul.primary li.active,
+.page-user #tabs ul.secondary li.active,
+.ting-search-carousel ul.search-controller li.active {
+    background-color: inherit;
+}
+
+.page-search ul.primary li a,
+.page-user ul.secondary li a,
+.ting-search-carousel ul.search-controller li a {
+  color: #2e2e2e;
+}
+
+.page-search ul.primary li.active a,
+.page-user ul.secondary li.active a,
+.ting-search-carousel ul.search-controller li.active a {
+  color: #ffffff;
+  background-color: #e94926;
+}
+
+
+/* reservation button */
+
+/*
+.ting-object form input {
+  color: #ffffff;
+  background-color: #e94927;
+}
+*/
+
+/* extended search, 'sort by' & 'records shown' */
+
+
+#edit-advanced .fieldset-wrapper {
+  border-color: #e94928;
+}
+
+
+/* ***** Popup box ***** */
+
+
+.ui-dialog {
+    border: 2px solid #E94928;
+    color: #2e2e2e;
+    background-color: #ffffff;
+}
+
+.ui-dialog .ui-widget-header {
+    color: #2e2e2e;
+    background-color: #ffffff;
+}
+
+.ui-dialog .ui-widget-content {
+    background-color: #ffffff;
+}
+
+.ui-dialog .ui-widget-content .status {
+    color: #2e2e2e;
+    background-color: #ffffff;
+}
+
+.ui-dialog .ui-widget-content .error {
+    background-color: #ffffff;
+}
+
+
+/* ***** Autocomplete ***** */
+
+#autocomplete {
+    border-color: #E94928;
+    background-color: #ffffff;
+}
+
+#autocomplete li.selected {
+    color: #e94927;
+    background-color: #ffffff;
+}
+
+#autocomplete li div.autocomplete_delimiter {
+    border-color: #E94928;
+    color: #2e2e2e;
+    background-color: #ffffff;
+}
+
+/* *****  view-ding-event teaser list ****** */
+
+.ding-event-teaser-list {
+  background-color: #F2F2F2;
+}
+
+.ding-event-teaser-list h2 {
+  color: #ffffff;
+  background-color: #e94928;
+}
+
+/* *****  view-ding-event ****** */
+
+.field-name-ding-news-library a,
+.view-ding-news .ding-news-library a,
+.view-ding-event .ding-event-library a,
+.view-ding-event .views-field-group-audience a {
+  color: #ffffff;
+}
+
+.view-ding-news .more-link a,
+.view-ding-event .more-link a {
+  color: #5C5959;
+}
+
+.view-ding-news .more-link a {
+  background: url('../images/icons/icon_rightarrow_14x14_white_on_orange.png') no-repeat 0 60%;
+}
+
+.view-ding-event .more-link a {
+  background: url('../images/icons/icon_rightarrow_14x14_white_on_orange_on_grey.png') no-repeat 0 60%;
+}
+
+.view-ding-news .more-link a:hover,
+.view-ding-event .more-link a:hover {
+  color: #e94927;
+}
+
+
+.ding-news-timestamp,
+.view-ding-news .views-field-timestamp {
+  color: #5C5959;
+}
+
+/* ***** Library menu block ***** */
+
+#header .library-menu {
+  border-top: 1px solid #AF3017;
+  background-color: #E94928;
+}
+
+#header .library-menu .wrapper {
+  border-top: 1px solid #D43C21;
+}
+
+#header .library-menu h2 {
+  color: #ffffff;
+  border-right: 1px solid #AF3017;
+}
+
+#header .library-menu .links .wrapper {
+  border-left: 1px solid #D43C21;
+}
+
+#header .library-menu ul.links {
+  background: transparent;
+}
+
+#header .library-menu ul.links li {
+  border-right: 1px solid #AF3017;
+}
+
+#header .library-menu ul.links li a {
+  color: #ffffff;
+}
+
+#header .library-menu ul.links a.active-trail,
+#header .library-menu ul.links a.active {
+  background: transparent;
+  background-color: transparent;
+  border-bottom: 3px solid #ffffff;
+}
+
+#header .library-menu ul.links li a:hover {
+  color: #F49D91;
+  background: transparent;
+}
+
+.today .ding-event-date p.ding-event-day,
+.today .ding-event-date p.ding-event-month {
+  color: #e94927;
+}
+
+#ding-library-page .library-list .middle-col.address a {
+  background: url("../images/icons/icon_uparrow_14x14_white_on_orange.png") no-repeat 0 60%;
+  color: #444;
+}
+
+
+/*
+ * Ting carusel
+ */
+
+/* .ting-search-carousel ul.search-controller -> see also: Primary tabs */
+
+.ting-search-carousel .ting-search-results {
+    border: 1px solid #e94926;
+}
+
+.ting-search-carousel .ting-search-results .subtitle {
+    color: #e94926;
+}
+
+.ting-search-carousel .rs-carousel-action-prev {
+    background: url("../images/carousel_prev_40x70_orange_on_white.png");
+}
+
+.ting-search-carousel .rs-carousel-action-next {
+    background: url("../images/carousel_next_40x70_orange_on_white.png");
+}
+
+.ting-search-carousel .rs-carousel-action-prev.rs-carousel-action-disabled {
+    background-image: url("../images/carousel_prev_disabled_40x70_orange_on_white.png");
+}
+
+.ting-search-carousel .rs-carousel-action-next.rs-carousel-action-disabled {
+    background-image: url("../images/carousel_next_disabled_40x70_orange_on_white.png");
+}
+
+/*******************************************************************
+* Color Module: Don't touch                                       *
+*******************************************************************/
+
+/* *****  region header ***** */
+
+#header .links li a { color: #625f5f; }

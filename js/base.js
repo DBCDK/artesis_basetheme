@@ -18,7 +18,7 @@
     $(".field-type-ting-infomedia > .field-items").filter('div:has(a)').addClass('rounded-corners');
     $(".field-type-ting-sfx > .field-items").filter('div:has(a)').addClass('rounded-corners');
     $(".field-type-ting-relation > .field-items").filter('div:has(a)').addClass('rounded-corners');
-    $("#block-system-user-menu > div > ul > li.last").addClass('rounded-corners');
+    $("#block-system-user-menu > div > div > ul > li.last").addClass('rounded-corners');
     $(".comment ul li").addClass('rounded-corners');
     $("li.comment-add").addClass('rounded-corners');
 

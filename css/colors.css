@@ -1,0 +1,105 @@
+/* ***** BASE COLOR ***** */
+
+body, select, input, textarea, label {
+    color: #2E2E2E;
+}
+
+body,
+input[type=checkbox],
+input.form-text {
+    background-color: #ffffff;
+}
+
+
+/* ***** REGION-ACTION-SEARCH ***** */
+
+.region-action-user-inner,
+#block-user-login,
+#block-search-form {
+    background-color: #E94928;
+}
+
+.region-action-user-inner,
+.region-action-user-inner a:link,
+.region-action-user-inner a:visited,
+#block-user-login .lead-text,
+#block-search-form .lead-text {
+    color: #fff;
+}
+
+
+/* ***** REGION-ACTION-USER ***** */
+
+#block-system-user-menu ul li.last a {
+    color: #09A9E1;
+}
+
+
+/* *****  HEADER MENU COLOR ***** */
+
+#region-menu .links li a.active-trail,
+#region-menu .links li a.active,
+#region-menu .links li a:hover {
+    background-color: #09a9e0;
+}
+
+#region-menu .links {
+    border-top-color: #e2e2e2;
+    background-color: #fff;
+}
+
+#region-menu .links li {
+    color: #2e2e2e;
+}
+
+#region-menu .links li a.active,
+#region-menu .links li a.active-trail,
+#region-menu .links li a:hover {
+    color: #fff;
+}
+
+
+
+/* *****  BREADCRUMB ***** */
+
+#breadcrumb .trail a {
+  color: #383636;
+}
+
+#breadcrumb .trail a:hover {
+  color: #e94827;
+}
+
+#breadcrumb .trail .last-breadcrumb {
+  font-weight: bold;
+}
+
+
+/* *****  TING-SEARCH-CAROUSEL ***** */
+
+.ting-search-carousel .ting-search-results {
+    border: 1px solid #E94926;
+}
+
+
+/* *****  REGION FOOTER ***** */
+
+
+#zone-footer-menus, #zone-footer {
+    background: #44a5d2 url(../img/bg/bg_footer_transparent.png) top left repeat-x;
+}
+
+#region-footer a,
+#region-footer a:visited,
+#region-footer a:active {
+    color: #2e2e2e;
+}
+
+#region-footer a:hover {
+    color: #6a6a6a;
+}
+
+#region-footer .block-ding-library {
+    border-color: #b5d6e8;
+}
+
