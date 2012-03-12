@@ -17,7 +17,7 @@ hide($content['comments']);
 
   <?php if (!$page && $title): ?>
   <header>
-    <h2 class="ding-news-title" <?php print $title_attributes; ?>>
+    <h2 <?php print $title_attributes; ?>>
       <a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a>
     </h2>
   </header>

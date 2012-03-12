@@ -24,21 +24,18 @@
 #block-user-login .lead-text {
   width: 70px;
 }
-
 #block-user-login .form-item {
   width: 250px;
 }
-
 #block-user-login .form-actions {
   width: 65px;
 }
 
 #block-search-form .form-item {
-  width: 575px;
+  width: 585px;
 }
-
 #block-search-form .form-actions {
-  width: 70px;
+  width: 75px;
 }
 
 

@@ -65,6 +65,46 @@ input.form-submit {
 
 /* *** PANELS *** change to Omega panels *** */
 
+.panel-1col .pane-page-tabs {
+  float: left;
+  width: 25%;
+}
+
+.panel-1col .pane-page-tabs .pane-content {
+  margin-right: 1em;
+}
+
+.page-user-edit .panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs {
+  float: left;
+  width: 25%;
+}
+
+.page-user-edit .panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs  .pane-content {
+  margin-right: 1em;
+}
+
+.panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs {
+  float: right;
+  width: 75%;
+}
+
+.panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs  .pane-content {
+  margin-right: 0;
+}
+
+.panel-1col .pane-user-profile,
+.panel-1col .pane-form,
+.panel-1col .pane-loans,
+.panel-1col .pane-reservations,
+.panel-1col .pane-debts,
+.panel-1col .pane-bookmarks,
+.panel-1col .pane-ding-dibs-dibs-terms-of-sale,
+.panel-1col .pane-ding-dibs-dibs-cards-supported {
+  float: right;
+  width: 75%;
+}
+
+
 .front .panel-2col-stacked .panel-col-top {
     display: none;
 }
@@ -233,7 +273,10 @@ input.form-submit {
     margin-bottom: 2em;
 }
 
-.panel-2col .panel-col-first ul, .panel-3col-stacked .panel-col-first ul, .panel-3col .panel-col-first ul {
+.panel-1col #tabs-primary-menu ul,
+.panel-2col .panel-col-first ul,
+.panel-3col-stacked .panel-col-first ul,
+.panel-3col .panel-col-first ul {
     border-width: 0;
     font-size: 0.8em;
     margin: 0;
@@ -241,7 +284,10 @@ input.form-submit {
     white-space: normal;
 }
 
-.panel-2col .panel-col-first ul li, .panel-3col-stacked .panel-col-first ul li, .panel-3col .panel-col-first ul li {
+.panel-1col #tabs-primary-menu ul li,
+.panel-2col .panel-col-first ul li,
+.panel-3col-stacked .panel-col-first ul li,
+.panel-3col .panel-col-first ul li {
     border-width: 0;
     display: block;
     font-weight: bold;
@@ -251,17 +297,30 @@ input.form-submit {
     width: 100%;
 }
 
-.panel-2col .panel-col-first ul li.first a.active, .panel-3col-stacked .panel-col-first ul li.first a.active, .panel-3col .panel-col-first ul li.first a.active {
+.panel-1col #tabs-primary-menu ul li.first a.active,
+.panel-2col .panel-col-first ul li.first a.active,
+.panel-3col-stacked .panel-col-first ul li.first a.active,
+.panel-3col .panel-col-first ul li.first a.active {
     border-bottom: 1px solid #999999;
     margin-right: 0;
 }
 
-.panel-2col .panel-col-first ul li.active, .panel-3col-stacked .panel-col-first ul li.active, .panel-3col .panel-col-first ul li.active, .panel-2col .panel-col-first ul li.active a, .panel-3col-stacked .panel-col-first ul li.active a, .panel-3col .panel-col-first ul li a.active, .panel-3col-stacked .panel-col-first ul li a.active, .ding-campaign-item-plain {
+.panel-1col #tabs-primary-menu ul li.active,
+.panel-2col .panel-col-first ul li.active,
+.panel-3col-stacked .panel-col-first ul li.active,
+.panel-3col .panel-col-first ul li.active, .panel-2col .panel-col-first ul li.active a,
+.panel-3col-stacked .panel-col-first ul li.active a,
+.panel-3col .panel-col-first ul li a.active,
+.panel-3col-stacked .panel-col-first ul li a.active,
+.ding-campaign-item-plain {
     background-color: #09A9E0;
     color: #FFFFFF;
 }
 
-.panel-2col .panel-col-first ul li a, .panel-3col-stacked .panel-col-first ul li a, .panel-3col .panel-col-first ul li a {
+.panel-1col #tabs-primary-menu ul li a,
+.panel-2col .panel-col-first ul li a,
+.panel-3col-stacked .panel-col-first ul li a,
+.panel-3col .panel-col-first ul li a {
     background-color: #FFFFFF;
     border-bottom: 1px solid #BBBBBB;
     border-width: 0 0 1px;
@@ -271,7 +330,10 @@ input.form-submit {
     padding: 0.5em 1em;
 }
 
-.panel-2col .panel-col-first ul li.first a, .panel-3col-stacked .panel-col-first ul li.first a, .panel-3col .panel-col-first ul li.first a {
+.panel-1col #tabs-primary-menu ul li.first a,
+.panel-2col .panel-col-first ul li.first a,
+.panel-3col-stacked .panel-col-first ul li.first a,
+.panel-3col .panel-col-first ul li.first a {
     border-top: 1px solid #BBBBBB;
 }
 
@@ -417,7 +479,7 @@ input.form-submit {
   margin: 0;
   padding: 0.5em 0.5em 0.25em 0;
   float: left;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 
 #block-user-login .form-actions,
@@ -425,21 +487,19 @@ input.form-submit {
   margin: 0;
   padding: 0.5em 0em 0.25em 0;
   float: left;
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
 }
 
 #block-user-login .form-item {
-  width: 38%;
+  width: 35%;
 }
-
 #block-user-login .form-actions {
-  width: 20%;
+  width: 25%;
 }
 
 #block-search-form .form-item {
   width: 71%;
 }
-
 #block-search-form .form-actions {
   width: 25%;
 }
@@ -810,7 +870,7 @@ input.form-submit {
     font-weight: bold;
 }
 
-h2.ding-news-title {
+.view-ding-news h2 {
     clear: none;
     font-size: 1.8em;
     padding: 0.5em 0 0.25em;

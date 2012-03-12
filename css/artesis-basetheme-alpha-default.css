@@ -23,19 +23,16 @@
   width: 70px;
   display: block;
 }
-
 #block-user-login .form-item {
   width: 140px;
 }
-
 #block-user-login .form-actions {
   width: 70px;
 }
 
 #block-search-form .form-item {
-  width: 300px;
+  width: 310px;
 }
-
 #block-search-form .form-actions {
-  width: 60px;
+  width: 50px;
 }

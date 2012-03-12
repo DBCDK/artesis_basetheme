@@ -58,6 +58,11 @@ input.form-text {
     color: #fff;
 }
 
+.panel-1col #tabs-primary-menu ul li.active,
+.panel-1col #tabs-primary-menu ul li a.active {
+    color: #fff;
+    background-color: #09a9e0;
+}
 
 
 /* *****  BREADCRUMB ***** */
