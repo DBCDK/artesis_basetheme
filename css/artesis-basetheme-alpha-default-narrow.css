@@ -39,8 +39,16 @@
 }
 
 
+/* *** CAMPAIGN *** */
+
+.pane-campaign {
+    display: block;
+}
+
+
 /* *** PANELS *** change to Omega panels *** */
 
+/*
 .front .panel-2col-stacked .panel-col-top {
   display: block;
 }
@@ -53,7 +61,6 @@
   width: 30%;
   display: block;
 }
-
 
 .panel-3col .panel-col {
     width: 50%;
@@ -68,3 +75,4 @@
     display: block;
 }
 
+*/

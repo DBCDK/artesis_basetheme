@@ -62,75 +62,7 @@ input.form-submit {
 }
 
 
-
-/* *** PANELS *** change to Omega panels *** */
-
-.panel-1col .pane-page-tabs {
-  float: left;
-  width: 25%;
-}
-
-.panel-1col .pane-page-tabs .pane-content {
-  margin-right: 1em;
-}
-
-.page-user-edit .panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs {
-  float: left;
-  width: 25%;
-}
-
-.page-user-edit .panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs  .pane-content {
-  margin-right: 1em;
-}
-
-.panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs {
-  float: right;
-  width: 75%;
-}
-
-.panel-1col .pane-page-tabs + .panel-separator + .pane-page-tabs  .pane-content {
-  margin-right: 0;
-}
-
-.panel-1col .pane-user-profile,
-.panel-1col .pane-form,
-.panel-1col .pane-loans,
-.panel-1col .pane-reservations,
-.panel-1col .pane-debts,
-.panel-1col .pane-bookmarks,
-.panel-1col .pane-ding-dibs-dibs-terms-of-sale,
-.panel-1col .pane-ding-dibs-dibs-cards-supported {
-  float: right;
-  width: 75%;
-}
-
-
-.front .panel-2col-stacked .panel-col-top {
-    display: none;
-}
-
-.panel-2col-stacked .panel-col-first {
-    width: 99.9%
-}
-
-.panel-2col-stacked .panel-col-last {
-    display: none;
-}
-
-
-.panel-3col .panel-col {
-    width: 99.9%;
-}
-
-.panel-3col .panel-col-first {
-    width: 99.9%;
-}
-
-.panel-3col .panel-col-last {
-    display: none;
-}
-
-
+/* ***** BRANDING REGION ***** */
 
 #region-branding .logo-img {
     margin: 0.5em;
@@ -162,6 +94,12 @@ input.form-submit {
     color: #383636;
 }
 
+
+/* ***** TING-SEARCH-CAROUSEL ***** */
+
+.ting-search-carousel {
+    display: none;
+}
 
 
 /* ***** PRIMARY TABS ***** */
@@ -521,6 +459,11 @@ input.form-submit {
 }
 
 
+.block-ding-username {
+    width: 55%;
+    float: left;
+}
+
 #ding-user-icon {
     float: left;
     text-align: right;
@@ -537,10 +480,8 @@ input.form-submit {
     float: left;
     height: 1.35em;
     max-height: 1.35em;
-    max-width: 22%;
     overflow: hidden;
     padding: 0.6em 0 0.25em 0.5em;
-    width: 22%;
 }
 
 #ding-user-icon .content {
@@ -741,20 +682,6 @@ input.form-submit {
     padding: 0 0 0.5em;
 }
 
-.node-type-ding-library .pane-ding-news .column-left,
-.page-ding-frontpage .pane-ding-news .column-left {
-    float: left;
-    margin-right: 4%;
-    padding: 0;
-    width: 48%;
-}
-
-.node-type-ding-library .pane-ding-news .column-right,
-.page-ding-frontpage .pane-ding-news .column-right {
-    float: right;
-    width: 48%;
-}
-
 .ding-news-library,
 .ding-event-teaser-list .ding-event-library a,
 .field-name-ding-news-library,
@@ -849,14 +776,6 @@ input.form-submit {
     width: 225px;
 }
 
-.node-type-ding-library .pane-ding-news .column-left,
-.page-ding-frontpage .pane-ding-news .column-left {
-    float: left;
-    margin-right: 4%;
-    padding: 0;
-    width: 48%;
-}
-
 .view-ding-news .ding-news-highlight .view-content .column-left {
     width: 100%;
 }
@@ -900,15 +819,6 @@ input.form-submit {
 
 .ding-event-teaser-list .pane-content {
     padding: 1em 1em 0;
-}
-
-.ding-event-teaser-list .column-event {
-    float: left;
-    margin-left: 3%;
-    width: 31%;
-}
-.ding-event-teaser-list .column-event.first {
-    margin-left: 0;
 }
 
 .ding-event-teaser-list .views-row {
@@ -978,6 +888,10 @@ input.form-submit {
 
 
 /* *** CAMPAIGN *** */
+
+.pane-campaign {
+    display: none;
+}
 
 .pane-campaign .ding-campaign-item {
     border: 1px solid #CCCCCC;

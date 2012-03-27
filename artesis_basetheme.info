@@ -3,7 +3,7 @@ description = ''
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
-base theme = 'ding2_basetheme'
+base theme = 'ding2omega'
 dependencies[0] = 'page_manager'
 
 version = '1.x'
